@@ -1,0 +1,15 @@
+html
+{
+    font-size: 65%;
+    font-family: sans-serif;
+}
+.header
+{
+    height: 4rem;
+    color: rgba(129, 15, 223, 0.952);
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    
+    
+}
