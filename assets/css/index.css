@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    
+    font-size: 1.5rem;
+    font-family: sans-serif
+}
+.navbar{
+    position: relative;
+    top:0;
+    left:0;
+    margin:none;    
+    background-color: black;
+    height: 4.5rem;
+}
+
+.navbar a {
+    float:right;
+}
+ a {
+    text-decoration: none;
+    padding:10px;
+    margin:2px 2px 2px 2px;
+    font-size: 2rem;
+    font-family: cursive;
+    color:beige;
+    
+    
+}
+ a:hover{
+    background-color: beige;
+    color:black
+}
+
+@media screen and (max-width: 800px) {
+    a {
+       font-size: smaller;
+    }
