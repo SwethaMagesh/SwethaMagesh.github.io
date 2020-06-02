@@ -4,13 +4,14 @@ html{
 }
 
 body{
-    
+    overflow-x:hidden;
+    overflow-y: visible;
     font-size: 1.5rem;
     font-family: sans-serif
 }
 @font-face {
-    font-family: 'FamilyName';
-    src: url("assets/fonts/FontName.ttf");
+    font-family: tr;
+    src: url("../fonts/TR-Regular.ttf");
   }
 .navbar{
     position: fixed;
@@ -18,8 +19,9 @@ body{
     top:0;
     left:0;
     margin:none;    
-    background-color: black;
+    background-color:snow;
     height: 4.5rem;
+    z-index:1;
 }
 
 .navbar a {
@@ -29,26 +31,55 @@ body{
     text-decoration: none;
     padding:10px;
     margin:2px 2px 2px 2px;
-    font-size: 2rem;
-    font-family:cursive, "Comic Sans MS", "microsoft sans serif";
-    color:beige;
+    font-size: 2.5rem;
+    font-family:TR;
+    color:black;
     
     
 }
 .navbar a:hover{
-    background-color: beige;
+    text-decoration: underline;
+    text-shadow: grey;
+    text-transform: uppercase;
     color:black
 }
 .headerspan{
     height: 4.5rem;
 }
+h1{
+ font-size: 5rem;
+}
+p{
+   
+    text-align: justify;
+}
 .box{
-    margin:2rem 2rem 2rem 2rem;
-    padding: 2rem;
-    border:1px solid grey;
-    height: 40rem;
-    font-size: 2rem;
     
+   
+    margin:none;
+    padding: 2rem;
+    margin-left: none;
+    margin-right: none; 
+    font-size: 2rem;
+    font-family: tr,'Comic Sans MS';
+    
+}
+.abtme{
+    
+
+}
+.MYProjects{
+    background-color: midnightblue;
+    color:snow
+    
+}
+.MYInterests{
+    background-color: thistle;
+   
+}
+.MYArticles{
+    background-color:rgba(238, 150, 150, 0.315);
+    color:rgb(105, 3, 46)
 }
 
 
@@ -61,6 +92,7 @@ body{
     margin: 10px auto;
     padding: 0;
     justify-content: center;
+    z-index: 0;
 }
 
 .social-media a
@@ -77,14 +109,17 @@ body{
     transition: 0.5s ease-in-out;
 }
 .footer{
-    background-color: black;
+   
     width:100%;
     height: 2rem;
     margin: none;
    
 }
 @media screen and (max-width: 800px) {
-    .box,a{
+    .box{
        font-size: smaller;
+    }
+    .a{
+        font-size:smaller;
     }
 }
