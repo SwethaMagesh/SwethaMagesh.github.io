@@ -30,7 +30,7 @@ body{
     padding:10px;
     margin:2px 2px 2px 2px;
     font-size: 2rem;
-    font-family: "Comic Sans MS", "microsoft sans serif";
+    font-family:cursive, "Comic Sans MS", "microsoft sans serif";
     color:beige;
     
     
@@ -50,6 +50,32 @@ body{
     font-size: 2rem;
     
 }
+
+
+/*social media*/
+
+.social-media
+{
+    display: flex;
+    list-style: none;
+    margin: 10px auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.social-media a
+{
+    display: block;
+    position: relative;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.social-media li:hover
+{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
 .footer{
     background-color: black;
     width:100%;
@@ -61,3 +87,4 @@ body{
     .box,a{
        font-size: smaller;
     }
+}
