@@ -8,8 +8,13 @@ body{
     font-size: 1.5rem;
     font-family: sans-serif
 }
+@font-face {
+    font-family: 'FamilyName';
+    src: url("assets/fonts/FontName.ttf");
+  }
 .navbar{
-    position: relative;
+    position: fixed;
+    width: 100%;
     top:0;
     left:0;
     margin:none;    
@@ -20,22 +25,39 @@ body{
 .navbar a {
     float:right;
 }
- a {
+ .navbar a {
     text-decoration: none;
     padding:10px;
     margin:2px 2px 2px 2px;
     font-size: 2rem;
-    font-family: cursive;
+    font-family: "Comic Sans MS", "microsoft sans serif";
     color:beige;
     
     
 }
- a:hover{
+.navbar a:hover{
     background-color: beige;
     color:black
 }
-
+.headerspan{
+    height: 4.5rem;
+}
+.box{
+    margin:2rem 2rem 2rem 2rem;
+    padding: 2rem;
+    border:1px solid grey;
+    height: 40rem;
+    font-size: 2rem;
+    
+}
+.footer{
+    background-color: black;
+    width:100%;
+    height: 2rem;
+    margin: none;
+   
+}
 @media screen and (max-width: 800px) {
-    a {
+    .box,a{
        font-size: smaller;
     }
