@@ -2,19 +2,34 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "icon" href = "assets/icons/logo.png"  type = "image/x-icon">
-       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/index.css">
+        <script  type="text/javascript" src="assets/js/index.js"></script>
         <title>
             My First Site
         </title>
     </head>
     <body> 
-        <div class="navbar">
+        
+        <div class="navbar" >  
+            <a href="javascript:void(0)"  id="navicon" onclick="navHIDE()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>  
+                              
+         <div id="myLinks">
             <a href='#four'>My articles</a> 
             <a href='#three'>My Interests</a>
             <a href="#two">My Projects</a>  
             <a href="#one">About me</a>
+         </div>
+            
         </div>
+        <div id="smallerVP">
+            <a href="#one">About me</a><br/>
+            <a href="#two">My Projects</a> <br/>
+            <a href='#three'>My Interests</a> <br/>
+            <a href='#four'>My articles</a>  <br/>
+        </div> 
     <section id="one">
         <div class="headerspan">
 
@@ -65,14 +80,43 @@
         </div>
         <div class="box MYProjects">
             <h1>My Projects</h1>
-            <p>
-                List of my projects and stuff. A brief description and link to github repo.
-                <ol>
-                    <li>Elucida </li>
-                    <li>Plethora</li>
-                    <li>Odyysey</li>
-                    <li></li>
-                </ol>
+            <p >
+                List of my projects - A  Brief Description and  Link to Github Repository.
+                <div class="projectCARD">
+                    <h1 class="proHead">
+                        Odyssey
+                    </h1>
+                    <div class ="pro">
+                        This is a Fitness application. It allows to track the diet and exercise plan daily, set goals, review the data graphically and other features.<br/>
+                        <a href=https://www.github.com/SwethaMagesh/FitnessTracker2.0.git target=_blank>Github Repo</a><br/>
+                        Platform: Windows (.NET framework)<br/>
+                        IDE: Visual Studio
+
+                    </div>
+                </div>
+                <div class="projectCARD">
+                    <h1 class="proHead">
+                        Elucida
+                    </h1>
+                    <div class ="pro">
+                        This is an Emergency mobile application. It fetches the nearest hospitals from current location and Intimates the emergency contact.<br/>
+                        <a href= https://www.github.com/SwethaMagesh/Elucida.git target=_blank> Github Repo</a><br/>
+                        Platform: Android<br/>
+                        IDE: Android Studio
+
+                    </div>
+                </div>
+                <div class="projectCARD">
+                    <h1 class="proHead">
+                        Plethora
+                    </h1>
+                    <div class ="pro">
+                        This is an Utility application designed in python. It has an Image Editor, OCR, Text Editor, Translator and Speech Assitant built.<br/>
+                        <a href=https://www.github.com/SwethaMagesh/SPD-Plethora.git target=_blank>Github repo</a><br/>
+                        Platform: Cross-Platform <br/>
+                    </div>
+                </div>
+               
             </p>
         </div> 
 
@@ -84,7 +128,7 @@
         <div class="box MYInterests">
             <h1>My Interests</h1>
             <p>
-              My hobbies and interests. some weirdness ahead too!  I guess interests come and go. We get crazy about certain things at certain periods of our life. I ll update my latest crazes here.
+              My hobbies and interests.   I guess interests come and go. We get crazy about certain things at certain periods of our life. I will update my latest crazes here.
             </p>
             <p>
                 I love history and mythology. Like epics and stories with too many twists in the plot. Probably that is why I read a lot of novels. I have recently been looking up World Wars, Cold Wars, Vietnam and Korean Wars and more about communism and Russia. The reason was Jeffrey Archer's novels primarily the Clifton Chronicles and Heads You Win. I was also looking up Plagues of 1800's due to the preveiling Corona Pandemic.
@@ -102,15 +146,22 @@
         <div class="box MYArticles">
             <h1>My Articles</h1>
             <p>
-              Some articles ahead. It won't be formal. I, like everyone else have a different writing style. It was very much influenced by my proud alma mater Avila Convent MHSS.
-              I very much want to write a novel one day. I will add my daily musings in this section. It may be silent philosophy, the book reviews for what I read or something I 
-              see which inspires me. 
+              Here are some articles I have written.
+              I will add my daily musings in this section. It may be silent philosophy, the book reviews for what I read or something 
+              which inspires me. 
             </p>
     
         </div>
 
     </section>
-    <div class="footer">
+    <div class="footer" id="footerCnt">
+        <small>&copy; Copyright,
+        <script type="text/JavaScript">
+
+            document.write(new Date().getFullYear());
+            
+       </script>
+        Swetha Magesh. All rights reserved.</small>
 
     </div>
   
