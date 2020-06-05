@@ -15,6 +15,11 @@ body{
     font-family: tr;
     src: url("../fonts/TR-Regular.ttf");
   }
+.navbar .mylogo{
+    float:left;
+    display: block;
+    margin-left: 5pt;
+}
 
 .navbar{
     position: fixed;
@@ -47,6 +52,7 @@ body{
 }
 #smallerVP{
     display:none;
+    z-index: 1;
     margin-top: 4.5rem;
     position:fixed;
     right:0;
@@ -80,7 +86,9 @@ a{
     color:black;
 }
 h1{
+ font-family: tr,"sans-serif";
  font-size: 5rem;
+ text-align: center;
 }
 p{
    
@@ -93,21 +101,29 @@ p{
     padding: 2rem;
     margin-left: none;
     margin-right: none; 
-    font-size: 2rem;
-    font-family: tr,'Comic Sans MS';
+    padding-bottom: 7rem;
+    font-size: 2.5rem;
+    font-family: tr,'Times New Roman', Times, serif;
+    
+}
+.box .centercon{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
     
 }
 .abtme{
-    background-color: midnightblue;
-    color:snow   
+    background-color: rgb(12, 186, 186);
+    color:black;
 
 }
 .MYProjects{
     background-color: cornsilk;
-  
+    color:rgb(0, 0, 0)
 }
 .MYInterests{
     background-color: thistle;
+    color:rgba(58, 13, 59, 0.87);
    
 }
 .MYArticles{
@@ -123,7 +139,7 @@ h1.proHead{
     border-radius:10px;
     margin:1rem;
     padding:1rem;
-    width:70%
+    width:100%;
 
 }
 
@@ -153,13 +169,28 @@ h1.proHead{
     transform: scale(1.5);
     transition: 0.5s ease-in-out;
 }
-.footer{
+.backtotop{
+    position: absolute;
    
+    left:50%;
+}
+.backtotop a{
+    transition: 0.5s;
+    
+}
+.backtotop img:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.footer{
+   position: relative;
     width:100%;
     height: 2rem;
-    
+
+    margin-left: 1rem;
+
     margin-top:2rem;
-    margin-bottom: none;
+    margin-bottom: 1rem;
     left:0;
     bottom:0;
     color:rgba(0, 0, 0, 0.966);
@@ -173,12 +204,22 @@ h1.proHead{
         opacity: 100;
        
     }
+    #smallerVP a{
+        font-size: smaller;
+    }
 
     .navbar #myLinks{
         display: none;
     }
+    .projectCARD{
+        margin: none;
+        width: 90%;
+    }
     
-   
+    .box .centercon{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .box{
        font-size: smaller;
     }
