@@ -16,24 +16,24 @@
         </section>
         
         <div class="navbar" >  
-            <img src="assets/icons/logo.jpg" class="mylogo" width="60pt" height="45pt">
+            <img src="assets/icons/sm.jpg" class="mylogo" width="60pt" height="45pt">
             <a href="javascript:void(0)"  id="navicon" onclick="navHIDE()">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </a>  
                               
          <div id="myLinks">
-            <a href='#four'>My Articles</a> 
-            <a href='#three'>My Interests</a>
-            <a href="#two">My Projects</a>  
+            <a href='#four'>Articles</a> 
+            <a href='#three'>Interests</a>
+            <a href="#two">Projects</a>  
             <a href="#one">About me</a>
          </div>
             
         </div>
         <div id="smallerVP">
             <a href="#one">About me</a><br/>
-            <a href="#two">My Projects</a> <br/>
-            <a href='#three'>My Interests</a> <br/>
-            <a href='#four'>My Articles</a>  <br/>
+            <a href="#two">Projects</a> <br/>
+            <a href='#three'>Interests</a> <br/>
+            <a href='#four'>Articles</a>  <br/>
         </div> 
     <section id="one">
         <div class="headerspan">
@@ -91,38 +91,58 @@
                 <h1>My Projects</h1>
             <p >
                 List of my projects - A  Brief Description and  Link to Github Repository.
-                <div class="projectCARD">
-                    <h1 class="proHead">
-                        Odyssey
-                    </h1>
+                <h1 class="proHead">
+                   <a href="javascript:void(0)"  onclick="displayproCard()">
+                    Odyssey
+                   </a> 
+                </h1>
+                <div class="project CARD0">             
                     <div class ="pro">
-                        This is a Fitness application. It allows to track the diet and exercise plan daily, set goals, review the data graphically and other features.<br/>
-                        <a href=https://www.github.com/SwethaMagesh/FitnessTracker2.0.git target=_blank>Github Repo</a><br/>
-                        Platform: Windows (.NET framework)<br/>
-                        IDE: Visual Studio
+                       <p>
+                        This is a Fitness application. It allows to track the diet and exercise plan daily, set goals, review the data graphically and so on...<br/>
+                       </p> 
+                        <a href=https://www.github.com/SwethaMagesh/FitnessTracker2.0.git target=_blank>Click to view Github Repository</a><br/>
+                        <b>Platform:</b> Windows (.NET framework)<br/>
+                        <b>Programming Language: </b>C#<br/>
+                        <b>IDE:</b> Visual Studio
 
                     </div>
                 </div>
-                <div class="projectCARD">
-                    <h1 class="proHead">
+                <h1 class="proHead">
+                    <a href="javascript:void(0)"  onclick="displayproCard()">
                         Elucida
-                    </h1>
+                    </a> 
+                   
+                </h1>
+                <div class="project CARD1">
+                    
                     <div class ="pro">
-                        This is an Emergency mobile application. It fetches the nearest hospitals from current location and Intimates the emergency contact.<br/>
-                        <a href= https://www.github.com/SwethaMagesh/Elucida.git target=_blank> Github Repo</a><br/>
-                        Platform: Android<br/>
-                        IDE: Android Studio
-
+                        <p>
+                            This is a mobile application for medical emergency. It fetches the nearest hospitals from current location and intimates through SMS the emergency contact. It also features a technology called NFC with future scope.<br/>
+                        </p>
+                        
+                        <a href= https://www.github.com/SwethaMagesh/Elucida.git target=_blank> Click to view Github Repository</a><br/>
+                        <b> Platform:</b> Android<br/>
+                        <b>Programming Language:</b> Java<br/>
+                        <b>IDE:</b> Android Studio
                     </div>
                 </div>
-                <div class="projectCARD">
-                    <h1 class="proHead">
+                <h1 class="proHead">
+                    <a href="javascript:void(0)"  onclick="displayproCard()">
                         Plethora
-                    </h1>
+                    </a> 
+                   
+                </h1>
+                <div class="project CARD2">
+                   
                     <div class ="pro">
-                        This is an Utility application designed in python. It has an Image Editor, OCR, Text Editor, Translator and Speech Assitant built.<br/>
-                        <a href=https://www.github.com/SwethaMagesh/SPD-Plethora.git target=_blank>Github repo</a><br/>
-                        Platform: Cross-Platform <br/>
+                        <p>
+                            This is an Utility application designed in python. It has an Image Editor, OCR, Text Editor, Translator and Speech Assitant built.<br/>
+                        </p>
+                      
+                        <a href=https://www.github.com/SwethaMagesh/SPD-Plethora.git target=_blank>Click to view Github Repository</a><br/>
+                       <b>Platform:</b> Cross-Platform KIVY <br/>
+                        <b>Programming Language:</b> Python<br/>
                     </div>
                 </div>
                
@@ -143,10 +163,15 @@
             <p>
               My hobbies and interests.   I guess interests come and go. We get crazy about certain things at certain periods of our life. I will update my latest crazes here.
             </p>
-            <p>
+            <a href="javascript:void(0)" onclick="historyIn()">
+            <b>Novels, History and Mythology</b></a><br/>
+            <p id="history">
                 I love history and mythology. Like epics and stories with too many twists in the plot. Probably that is why I read a lot of novels. I have recently been looking up World Wars, Cold Wars, Vietnam and Korean Wars and more about communism and Russia. The reason was Jeffrey Archer's novels primarily the Clifton Chronicles and Heads You Win. I was also looking up Plagues of 1800's due to the preveiling Corona Pandemic.
             </p>
-            <p>
+            <a href="javascript:void(0)" onclick="codes()">
+              <b>  Secrets and Codes</b>
+            </a>
+            <p id="codes">
                 I love secrets, codes and breaking them. Like recently I am addicted to cryptography, Encryption and Decryption and stuff.
             </p>
             </div>
