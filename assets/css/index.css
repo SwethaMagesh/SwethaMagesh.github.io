@@ -68,6 +68,53 @@ p{
     background-color:rgba(238, 150, 150, 0.315);
     color:rgb(105, 3, 46)
 }
+
+/* navbar*/
+nav{
+    position: fixed;
+    width:100%;
+    background-color: white;
+    z-index: 1;
+}
+nav .logo{
+    margin-top:0.5rem;
+    margin-left: 2rem;
+    float: left;
+
+}
+.topbar{
+    
+    width: 35%;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: tr,'sans serif';
+    font-size: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;   
+   
+}
+nav .navitem{
+    display: inline;
+   padding:0.5rem 3rem 0rem 3rem;   
+
+}
+
+
+nav .nav-icon{
+    margin-top: 0.5rem;
+    float:right;
+    
+}
+nav .line1,nav .line2, nav .line3{
+    background-color:black;
+    height: 0.2rem;
+    width: 3.5rem;
+    margin:1rem;
+}
+
+
+/*navbar*/
 h1.proHead{
     margin:1rem;
     font-size: 3rem;
@@ -132,11 +179,15 @@ a{
 }
 @media screen and (min-width:800px){
     /* big only */
-
+    nav .nav-icon{
+        display: none;
+    }
+    
  
     a:hover{
         text-decoration: underline;
         text-shadow: grey;
+        text-transform: uppercase;
     }
     
     .social-media li:hover
@@ -147,7 +198,55 @@ a{
 }
 @media screen and (max-width: 800px) {
     /* small only*/
+    .toggle .line1{
+        transform: rotate(-45deg) translateY(1.7rem);
+        background-color: white;
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translateY(-1.7rem) ;
+        background-color: white;
+    }
    
+    .topbar{
+        position: fixed;
+        top:0;
+        right:0;
+        z-index:-1;   
+        justify-content: flex-start;
+        width:35%;
+        flex-direction:column;
+        
+        
+
+    }
+    nav .navitem{
+        opacity: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+       
+    }
+    .top-bar-active{
+        padding-top: 3rem;
+        background-color: rgba(0, 0, 0, 0.493);
+       
+    }
+    nav .top-bar-active .navitem a{
+        color:white;
+    }
+    nav .top-bar-active .navitem{
+        opacity: 1;         
+        text-align: center;
+    }
+    
+    nav .nav-icon{
+        display: block;
+        margin-right: 2rem;
+        z-index: 1;
+    }
     .project{
         margin: none;
         width: 80%;
