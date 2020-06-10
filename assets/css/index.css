@@ -15,70 +15,7 @@ body{
     font-family: tr;
     src: url("../fonts/TR-Regular.ttf");
   }
-.navbar .mylogo{
-    float:left;
-    display: block;
-    margin-left: 5pt;
-}
 
-.navbar{
-    position: fixed;
-    width: 100%;
-    top:0;
-    left:0;
-    margin:none;    
-    background-color:snow;
-    height: 4.5rem;
-    z-index:1;
-}
-.navbar #navicon{
-    float: right;
-    opacity: 0;
-    background-color:black;
-    color: white;
-}
-
-
- .navbar a {
-    text-decoration: none;
-    float:right;
-    padding:10px;
-    margin:2px 2px 2px 2px;
-    font-size: 2.5rem;
-    font-family:TR;
-    color:rgba(0, 0, 0, 0.671);
-    
-    
-}
-#smallerVP{
-    display:none;
-    z-index: 1;
-    margin-top: 4.5rem;
-    position:fixed;
-    right:0;
-    font-size: 2.5rem;
-    text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.671);
-    text-align: center;
-    font-family: tr;
-    width:30%
-}
-#smallerVP a{
-    text-decoration: none;
-    color:white;
-
-}
-#smallerVP a:hover{
-    text-decoration: underline;
-    text-shadow: grey;
-    text-transform: uppercase;
-}
-.navbar a:hover{
-    text-decoration: underline;
-    text-shadow: grey;
-    text-transform: uppercase;
-    color:black
-}
 .headerspan{
     height: 4.5rem;
 }
@@ -86,6 +23,7 @@ a{
     color:black;
 }
 h1{
+ 
  font-family: tr,"sans-serif";
  font-size: 5rem;
  text-align: center;
@@ -146,10 +84,7 @@ h1.proHead{
 a{
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
-    text-shadow: grey;
-}
+
 
 #history,#codes{
     display: none;
@@ -174,29 +109,16 @@ a:hover{
     transition: 0.5s;
 }
 
-.social-media li:hover
-{
-    transform: scale(1.5);
-    transition: 0.5s ease-in-out;
-}
-.backtotop{
-    position: absolute;
-   
-    left:50%;
-}
-.backtotop a{
-    transition: 0.5s;
-    
-}
-.backtotop img:hover{
-    transform: scale(1.5);
-    transition: 0.5s ease-in-out;
-}
+
+
+
+
 .footer{
    position: relative;
     width:100%;
     height: 2rem;
-
+    text-align: center;
+    letter-spacing: 0.1rem;
     margin-left: 1rem;
 
     margin-top:2rem;
@@ -208,19 +130,24 @@ a:hover{
 
    
 }
-@media screen and (max-width: 800px) {
-    .navbar #navicon{
-        display: block;
-        opacity: 100;
-       
-    }
-    #smallerVP a{
-        font-size: smaller;
-    }
+@media screen and (min-width:800px){
+    /* big only */
 
-    .navbar #myLinks{
-        display: none;
+ 
+    a:hover{
+        text-decoration: underline;
+        text-shadow: grey;
     }
+    
+    .social-media li:hover
+    {
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+    }
+}
+@media screen and (max-width: 800px) {
+    /* small only*/
+   
     .project{
         margin: none;
         width: 80%;
@@ -231,7 +158,5 @@ a:hover{
         margin-left: 10px;
         margin-right: 10px;
     }
-    .box{
-      
-    }
+    
    }
