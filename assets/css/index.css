@@ -39,10 +39,9 @@ p{
 .box{
     
     
-    margin:none;
-    
-    margin-left: none;
-    margin-right: none; 
+    margin:none;    
+    height:100vh;
+    align-items: center;
     padding-bottom: 7rem;
     font-size: 2.5rem;
     font-family: tr,'Times New Roman', Times, serif;
@@ -57,12 +56,15 @@ p{
 .abtme{
     background-color: rgb(12, 186, 186);
     color:black;
+    height:75vh;
 
 }
 .MYProjects{
     background-color: cornsilk;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    height:100vh;
 }
+
 .MYInterests{
     background-color: thistle;
     color:rgba(58, 13, 59, 0.87);
@@ -119,19 +121,7 @@ nav .line1,nav .line2, nav .line3{
 
 
 /*navbar*/
-h1.proHead{
-    margin:1rem;
-    font-size: 3rem;
-}
-.pro{
-    border:1px solid ;
-    border-radius:10px;
-    margin:1rem;
-    padding:3rem;
-    width:fit-content;
-    text-align: center;
 
-}
 a{
     text-decoration: none;
 }
@@ -255,18 +245,7 @@ a{
         margin-right: 2rem;
         z-index: 1;
     }
-    .project{
-        margin: none;   
-        
-    }
-    .pro{
-        
-        margin:none;
-        padding:1rem;
-    }
-    .box.MYProjects{
-        padding: none;
-    }
+   
     .abtme,.MYInterests,.MYArticles{
         padding: 1rem;
     }

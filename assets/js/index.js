@@ -5,6 +5,10 @@ function NavTog(){
     var y=document.querySelector(".topbar");
     y.classList.toggle('top-bar-active');
 }
+
+function ProToggle(){
+
+}
 function historyIn(){
 
     var x=document.getElementById("history");

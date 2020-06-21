@@ -4,7 +4,9 @@
         <link rel = "icon" href = "assets/icons/logo.png"  type = "image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/pro.css">
         <script  type="text/javascript" src="assets/js/index.js"></script>
+        <script type="text/javascript" src="assets/js/pro.js"></script>
         <title>
             Swetha Magesh
         </title>
@@ -42,7 +44,8 @@
                     <h1>About me</h1>
         
                 <p>
-                    This is Swetha Magesh. I am from Coimbatore. I am currently doing Computer Science Engineering in PSG college of Technology. I love reading novels, watching movies, doing Math and coding, understanding mysteries.
+                    This is Swetha Magesh. I am from Coimbatore. I am currently doing Computer Science Engineering in PSG college of Technology. I love reading novels, watching movies, doing Math and coding, understanding mysteries. 
+                    I am excited about knowing new things and understanding new concepts. I am weak, bit dependent and lazy!
                 </p>
             
                 </div>
@@ -86,12 +89,18 @@
         <div class="box MYProjects">
             <div class="centercon">
                 <h1>My Projects</h1>
+                <h2 class="subpro">Ongoing Projects</h2>
+                <h2 class="subpro">Completed Projects</h2>
+                <div class="plusMinus">
+
+                </div>
+
                 
-                <h1 class="proHead">
-                   Odyssey
-                </h1>
-                <div class="project CARD0">             
-                    <div class ="pro">
+                <h3 class="proHead">
+                    <a href=javascript:void(0) onclick="togglePCard('p0')">Odyssey</a>   
+                </h3>
+                <div class="projectCARD p0">             
+                    
                        <p>
                         This is a Fitness application. It allows to track the diet and exercise plan daily, set goals, review the data graphically and so on...<br/>
                        </p> 
@@ -100,15 +109,13 @@
                         <b>Programming Language: </b>C#<br/>
                         <b>IDE:</b> Visual Studio
 
-                    </div>
-                </div>
-                <h1 class="proHead">
-                    Elucida 
-                   
-                </h1>
-                <div class="project CARD1">
                     
-                    <div class ="pro">
+                </div>
+                <h3 class="proHead">
+                    <a href=javascript:void(0) onclick="togglePCard('p1')">Elucida</a>   
+                   
+                </h3>
+                <div class="projectCARD p1">                 
                         <p>
                             This is a mobile application for medical emergency. It fetches the nearest hospitals from current location and intimates through SMS the emergency contact. It also features a technology called NFC with future scope.<br/>
                         </p>
@@ -117,17 +124,13 @@
                         <b> Platform:</b> Android<br/>
                         <b>Programming Language:</b> Java<br/>
                         <b>IDE:</b> Android Studio
-                    </div>
+                    
                 </div>
-                <h1 class="proHead">
-                    
-                        Plethora
-                    
+                <h3 class="proHead">
+                <a href=javascript:void(0) onclick="togglePCard('p2')">Plethora</a>   
+                </h3>
+                <div class="projectCARD p2">               
                    
-                </h1>
-                <div class="project CARD2">
-                   
-                    <div class ="pro">
                         <p>
                             This is an Utility application designed in python. It has an Image Editor, OCR, Text Editor, Translator and Speech Assitant built.<br/>
                         </p>
@@ -135,7 +138,7 @@
                         <a href=https://www.github.com/SwethaMagesh/SPD-Plethora.git target=_blank>Click to view Github Repository</a><br/>
                        <b>Platform:</b> Cross-Platform KIVY <br/>
                         <b>Programming Language:</b> Python<br/>
-                    </div>
+                   
                 </div>
                
             

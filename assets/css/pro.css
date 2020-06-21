@@ -1,0 +1,39 @@
+.prohead{
+    margin-left: 2rem;
+}
+.projectCARD{
+   display: none;
+  
+}
+.projectCARD.toggle{
+    display: block;
+    margin-left: 2.2rem;
+    padding:2rem;
+    border: 0.2px solid black;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.projectCARD.toggle:hover{
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+}
+h1.proHead{
+    margin:1rem;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width: 800px){
+    /*small only*/
+    .project{
+        margin: none;   
+        
+    }
+    .pro{
+        
+        margin:none;
+        padding:1rem;
+    }
+    .box.MYProjects{
+        padding: none;
+    }
+}
