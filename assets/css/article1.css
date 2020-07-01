@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*::before, *::after
+{
+    box-sizing: border-box;
+}
+:root
+{
+    --font:'Montserrat',sans-serif; /* This will be used for header and footer */
+    --mainfont: 'PT Sans','Montserrat',sans-serif;
+    --specialfont: 'Lato', 'PT Sans', sans-serif;
+    --color1:rgb(105, 3, 46); 
+    --color2: rgb(238, 150, 150);
+    --maincolor: linear-gradient(to right,rgba(238, 150, 150, 0.315),rgba(105, 3, 46, 0.877));
+    --greycolor: rgb(121, 121, 121);
+}
+
+html
+{
+    font-family: var(--font);/* Never get smaller than this */
+    font-size: 1.8rem;
+    height: 100%;
+}
+
+@media (min-width:960px) {
+html {
+    font-size: 2rem;
+}
+}
+
+@media (min-width:1200px) {
+html {
+    /* Never get larger than this */
+    font-size: 2.2rem;
+}
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+.main-container
+{
+    font-family: var(--mainfont);    
+    font-size: 1rem;
+    max-width: 750px;
+    height: auto;
+    margin: 1rem auto 2rem;
+    padding: 1rem;
+    margin-top: 8vh;
+    text-align: justify;
+    position: relative;
+    border-bottom: 1.5px solid rgb(230, 230, 230);
+    /* animation: slideFromLeft 1s ease forwards; */
+}
+.main-container div.text{
+    text-indent: 2rem;
+    padding-bottom: 1rem;
+}
+.main-container div.picbox{
+    text-indent: none;
+}
+@media screen and (min-width:800px){
+    .main-container .picbox{
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+     }
+}
+
+
+.main-container h2
+{
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    transition: 1s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.header
+{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(105, 3, 46);
+    padding: 2rem 0;
+}
+.italicDate{
+ text-align: left;
+ font-size: 0.6rem;
+ font-style: italic;
+ font-weight: lighter;
+  color:black;
+}
+.footer
+{
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: auto; /* To keep it at the bottom */
+}
+
+.copyright
+{
+    padding-top: 0.5rem;
+}
+/* Quotes */
+.quote
+{
+    font-family: var(--specialfont);
+    text-align: justify;
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: linear-gradient(to right, var(--color1),var(--color2) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border : 1px solid var(--color1);
+    border-radius: 5px;
+    color: var(--color1);
+    border-left: 10px solid var(--color1);
+}
+
+/* For the big quote symbol */
+.quote::before
+{
+    content: "\201c";
+    font-size: 5.5rem;
+    color: var(--color1);
+    display: block;
+    
+    margin-bottom: -3rem;
+    margin-top: -1rem;
+}
+
+.quote-text
+{
+    font-size: 0.7rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* to add bottom margin to everything except last child */
+.quote-text:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+
+.quote-credit
+{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    color: var(--color2);
+}
+
+/* For the hypen before credit person */
+.quote-credit::before
+{
+    content: "\2014\0020";
+}
+
+.quote, .quote::before,.quote-text
+{
+    transition: all 0.5s ease-in-out;
+}
+
+    .quote:hover
+    {
+        background-position: left bottom;
+        border-color: var(--color1);
+    }
+    .quote:hover:before
+    {  
+        -webkit-text-fill-color: white;
+        transform: scale(1.05);
+    }
+    .quote:hover .quote-text
+    {
+        transform: scale(1.03);
+        -webkit-text-fill-color: white;
+    }
+/* Quotes */
+
+/* Right floating box */
+.note
+{
+    font-size: 0.5rem;
+    font-weight: lighter;
+    padding: 1rem 0.5rem;
+    margin: 1rem auto;
+    line-height: 1.5;
+    border-top: 1px solid rgba(214, 214, 214);
+    border-bottom: 1px solid rgba(214, 214, 214);
+}
+
+.blue
+{
+    background-color: rgb(255, 243, 240);  
+    color: rgb(238, 150, 150) 
+}
+
+
+@media screen and (min-width:1150px)
+{
+    .set-aside
+    {
+        position: absolute;
+        right: -180px;
+        transform: translateY(-50%);
+        width: 160px;
+        font-size: 0.5rem;
+    }
+}
+@media screen and (min-width:1250px)
+{
+    .set-aside
+    {
+        right: -220px;
+        width: 180px;
+    }
+}
+
+
+
+
+
+.fade-in
+{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear
+{
+    opacity: 1;
+}
+
+@keyframes slideFromTop
+{
+    0%
+    {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft
+{
+    0%
+    {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes navItemFade
+{
+    from
+    {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
