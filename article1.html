@@ -3,16 +3,38 @@
 <head>
     <link rel = "icon" href = "assets/icons/logo.png"  type = "image/x-icon">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | Swetha Magesh</title>
 </head>
+<link rel="stylesheet" href="assets/css/index.css">
+<script  type="text/javascript" src="assets/js/index.js"></script>
 <link rel="stylesheet" href="assets/css/article1.css" > 
 <link rel="icon" href="assets/img/fav.png">
 
 <body>
-<nav>
-   
-</nav>
+    <nav>
+        <div class="logo">
+         <a href="index.html#one" >
+            <img src ="assets/icons/sm.jpg" width="50px" height="40px">
+        </a>   
+        </div>
+            <ul class ="topbar">
+                <li class="navitem"><a href="index.html#one">Home</a></li>
+                <li class="navitem"><a href="index.html#two">Projects</a></li>
+                <li class="navitem"><a href="index.html#three">Interests</a></li>
+                <li class="navitem"><a href="index.html#four">Blog</a></li>                
+            </ul>
+            <a href="javascript:void(0)" onclick="NavTog()">
+                <div class ="nav-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </a>
+           
+
+       
+    </nav>
 <div class = "main-container">
 <div class="header">
     A Day In Lockdown 2020 
@@ -64,13 +86,15 @@
 </div>
 
 
+<div class="footer" >
+    <small> <i>&copy; Copyright,
+      <script type="text/JavaScript">
 
-<div class="footer">
-    
-    <div class="copyright">
-        &#169 Copyright 2020 - Swetha Magesh
-    </div>
-</div>
+          document.write(new Date().getFullYear());
+          
+     </script>
+      Swetha Magesh.</i> </small>
+  </div> 
 
 
 </body>
