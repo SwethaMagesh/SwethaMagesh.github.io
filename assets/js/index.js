@@ -12,10 +12,10 @@ function ProToggle(){
 function historyIn(){
 
     var x=document.getElementById("history");
-    if(x.style.display=="none")
-    x.style.display="block";
-    else
+    if(x.style.display=="block")
     x.style.display="none";
+    else
+    x.style.display="block";
 
 
      
@@ -24,10 +24,10 @@ function historyIn(){
 function codes(){
 
     var x=document.getElementById("codes");
-    if(x.style.display=="none")
-    x.style.display="block";
-    else
+    if(x.style.display=="block")
     x.style.display="none";
+    else
+    x.style.display="block";
 
 
      

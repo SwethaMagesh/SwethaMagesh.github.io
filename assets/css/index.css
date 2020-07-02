@@ -223,6 +223,7 @@ a{
     }
     nav .navitem{
         opacity: 0;
+        display:none;
         margin-top: 1rem;
         margin-bottom: 1rem;
         
@@ -238,7 +239,8 @@ a{
         color:white;
     }
     nav .top-bar-active .navitem{
-        opacity: 1;         
+        opacity: 1; 
+        display:block;        
         text-align: center;
     }
     
