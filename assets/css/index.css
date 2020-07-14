@@ -19,6 +19,10 @@ body{
     font-family: tr;
     src: url("../fonts/TR-Regular.ttf");
   }
+  @font-face {
+    font-family: Alegreya;
+    src: url("../fonts/Alegreya-Medium.ttf");
+  }
 
 .headerspan{
     height: 4.5rem;
@@ -76,7 +80,16 @@ p{
 }
 .MYArticles{
     background-image:radial-gradient(rgba(238, 150, 150, 0.315),rgb(248, 192, 192));   
-    color:rgb(105, 3, 46)
+    color:black;
+    
+}
+.indexBlog{
+    font-family: Alegreya;
+    font-size: 1.8rem;
+    list-style: square;
+}
+.indexBlog a{
+    color:rgba(58, 13, 59, 0.87);
 }
 
 /* navbar*/

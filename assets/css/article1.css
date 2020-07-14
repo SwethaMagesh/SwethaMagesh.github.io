@@ -19,23 +19,31 @@ q, blockquote {
     box-sizing: border-box;
 }
 @font-face {
-    font-family: tr;
-    src: url("../fonts/TR-Regular.ttf");
+    font-family: Alegreya;
+    src: url("../fonts/Alegreya-Medium.ttf");
   }
+  @font-face{
+      font-family: CardoQ;
+      src:url("../fonts/Cardo-Italic.ttf");
+
+  }
+  @font-face{
+      font-family: Baskerville;
+      src:url("../fonts/LibreBaskerville-Italic.ttf")
+
+  }
+
 :root
 {
-    --font:'Montserrat',sans-serif; /* This will be used for header and footer */
-    --mainfont: 'PT Sans','Montserrat',sans-serif;
-    --specialfont: 'Lato', 'PT Sans', sans-serif;
+    --font:Alegreya,sans-serif; /* This will be used for header and footer */
+    --mainfont:Alegreya,sans-serif;
+    --specialfont: Baskerville,CardoQ, Alegreya, sans-serif;
     --color1:rgba(105, 3, 46); 
     --color2: rgb(238, 150, 150);
     --maincolor: linear-gradient(to right,rgba(238, 150, 150, 0.315),rgba(105, 3, 46, 0.253));
     --greycolor: rgb(121, 121, 121);
 }
-/* *::selection,*::-moz-selection{
-    background:var(--color2) ;
-    color:var(--color1);
-} */
+
 
 html
 {
@@ -126,6 +134,7 @@ nav{
 }
 .header
 {
+    font-family: Alegreya;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
@@ -246,7 +255,20 @@ nav{
 }
 
 
+.navtonext{
+    margin:2rem;
+    font-family: Alegreya;
+    text-align: center;
 
+}
+.navtonext .prev{
+    float:left;
+    width:50%
+}
+.navtonext .next{
+    float:right;
+    width:50%;
+}
 @media screen and (min-width:1150px)
 {
     .set-aside
