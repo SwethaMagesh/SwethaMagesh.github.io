@@ -54,24 +54,28 @@ p{
     
 }
 .abtme{
-    background-color: rgb(12, 186, 186);
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+    background-image: url('../images/bg/Grass Mint.jpg');
+    /* background-size: cover; */
     color:black;
     height:75vh;
 
 }
 .MYProjects{
+    /* background-image:url('../images/bg/MediumPurple.jpg');
+    background-size: cover; */
     background-color: cornsilk;
     color:rgb(0, 0, 0);
    
 }
 
 .MYInterests{
-    background-color: thistle;
+    background-image: radial-gradient(rgba(209, 240, 252, 0.651),thistle);    
     color:rgba(58, 13, 59, 0.87);
    
 }
 .MYArticles{
-    background-color:rgba(238, 150, 150, 0.315);
+    background-image:radial-gradient(rgba(238, 150, 150, 0.315),rgb(248, 192, 192));   
     color:rgb(105, 3, 46)
 }
 
@@ -80,6 +84,7 @@ nav{
     position: fixed;
     width:100%;
     background-color: white;
+    
     z-index: 1;
    
 }
@@ -136,10 +141,11 @@ a{
 
 .social-media
 {
+  
     display: flex;
     list-style: none;
     margin: 10px auto;
-    padding: 0;
+    padding: 10px;
     justify-content: center;
     z-index: 0;
 }
