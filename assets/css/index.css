@@ -71,11 +71,16 @@ p{
     background-color: cornsilk;
     color:rgb(0, 0, 0);
    
+   
 }
 
 .MYInterests{
-    background-image: radial-gradient(rgba(209, 240, 252, 0.651),thistle);    
-    color:rgba(58, 13, 59, 0.87);
+    /* background-image: url("../images/bg/colored.jpg");       
+    background-attachment: fixed;
+    background-size: cover; */
+    color:rgba(58, 13, 59, 0.979);
+    background-color: thistle;
+    
    
 }
 .MYArticles{
@@ -97,6 +102,7 @@ nav{
     position: fixed;
     width:100%;
     background-color: white;
+    
     
     z-index: 1;
    
