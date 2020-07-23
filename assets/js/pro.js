@@ -8,26 +8,10 @@ function togglePCard(){
                 if(!allCard[i].classList.contains(arguments[0]))
                 allCard[i].classList.remove('toggle');
            
-        }
-       
+        }     
     
-    
-   if(arguments[0]=='p0')
-   {
-    procur=document.querySelector(".p0");
-    procur.classList.toggle('toggle');
-  
-   }
-   if(arguments[0]=='p1')
-   {
-    procur=document.querySelector(".p1");
-    procur.classList.toggle('toggle');
 
-   }
-   if(arguments[0]=='p2')
-   {
-    procur=document.querySelector(".p2");
-    procur.classList.toggle('toggle');
-   }
+   procur=document.querySelector("."+arguments[0]);
+   procur.classList.toggle('toggle');
 
 }
