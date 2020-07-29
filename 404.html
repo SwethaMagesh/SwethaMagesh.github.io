@@ -1,0 +1,92 @@
+---
+permalink: /404.html
+title: OOPS!!
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "icon" href = "assets/icons/logo.png"  type = "image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script  type="text/javascript" src="assets/js/index.js"></script>
+    <title>oopss! </title>
+    <style>
+        body{
+            background-color: #f1f1f1;
+        }
+        
+       @media screen and (max-width: 800px){
+           *{
+               margin: 0;
+           }
+           .main-image {
+               height: 90vh;
+               
+           }
+            /*small only*/
+            .main-image img{
+                width: 90%;
+                margin-top: 40%;
+                margin-left: 5%;
+            }
+        
+       }
+       @media screen and (min-width: 800px){
+           .main-image img{               
+               height: 65%;
+                     
+           }
+           .main-image{
+               text-align: center;             
+               width: 100%;
+           }
+          
+           
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+         <a href="#one" >
+            <img src ="assets/icons/sm.jpg" width="50pt" height="40pt">
+        </a>   
+        </div>
+            <ul class ="topbar">
+                <li class="navitem"><a href="#one">Home</a></li>
+                <li class="navitem"><a href="#two">Projects</a></li>
+                <li class="navitem"><a href="#three">Interests</a></li>
+                <li class="navitem"><a href="#four">Blog</a></li>                
+            </ul>
+            <a href="javascript:void(0)" onclick="NavTog()">
+                <div class ="nav-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </a>
+           
+
+       
+    </nav>
+    <div class="headerspan">
+
+    </div>
+    <div class="main-image">
+        <img src="assets/images/404page1.jpg"  alt="OOPS! sorry guys!">
+    </div>
+
+    <div class="footer" >
+        <small> <i>&copy; Copyright,
+          <script type="text/JavaScript">
+  
+              document.write(new Date().getFullYear());
+              
+         </script>
+          Swetha Magesh.</i> </small>
+      </div>
+    
+</body>
+</html>
