@@ -1,5 +1,5 @@
-# SwethaMagesh.github.io
-Github page creation.
-My portfolio site
-also contains blog
+# My portfolio 
+My portfolio site ! 
+Also contains a Blog!
+Hosted using Github pages
 
