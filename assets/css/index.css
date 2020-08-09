@@ -62,17 +62,60 @@ p{
     
 }
 .abtme{
-    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
-    background-image: url('../images/bg/Grasst.jpg');
-    /* background-size: cover; */
+    
+    background-color: rgb(237, 209, 164);
     color:black;
-    height:75vh;
+    
+
+}
+.textAbout{
+    width: 50%;
+    float: left;
+    min-height: 100vh;
+}
+.typoClass{
+    width: 50%;
+    height: 100vh;
+    float: right;     
+
+}
+.typoClass {    
+   background-image: url("../typoImages/meTypoFac.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center top;
+}
+@media screen and (max-width:450px){
+    .typoClass{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:920px){
+    /* small screen */
+    .textAbout{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .typoClass{
+        width: 100%;
+        min-height: 50vh;
+        /* height: auto; */
+        float: none;  
+        background-image: url("../typoImages/meTypo2.png");
+        background-size: contain;   
+        background-repeat: no-repeat; 
+        background-position:center;
+    
+    }
 
 }
 .MYProjects{
-    /* background-image:url('../images/bg/MediumPurple.jpg');
-    background-size: cover; */
-    background-color: cornsilk;
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+    background-image: url('../images/bg/Grasst.jpg');
+    background-size: cover;
+    /* background-color: cornsilk; */
     color:rgb(0, 0, 0);
    
    
@@ -86,6 +129,10 @@ p{
     background-color: thistle;
     
    
+}
+.hobbies{
+    list-style-type: upper-roman;
+    list-style-position: inside;
 }
 .MYArticles{
     background-image:radial-gradient(rgba(238, 150, 150, 0.315),rgb(248, 192, 192));   
@@ -105,9 +152,7 @@ p{
 nav{
     position: fixed;
     width:100%;
-    background-color: white;
-    
-    
+    background-color: white;  
     z-index: 1;
    
 }
@@ -157,9 +202,7 @@ a{
 }
 
 
-#history,#codes{
-    display: none;
-}
+
 /*social media*/
 
 .social-media
