@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -63,7 +64,9 @@ p{
 }
 .abtme{
     
-    background-color: rgb(237, 209, 164);
+    /* background-color: rgb(237, 209, 164); */
+    /* background: white; */
+    
     color:black;
     
 
@@ -80,7 +83,7 @@ p{
 
 }
 .typoClass {    
-   background-image: url("../typoImages/meTypoFac.png");
+   background-image: url("../typoImages/meTypoFac3.png");
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center top;
@@ -109,11 +112,14 @@ p{
         background-position:center;
     
     }
+    .abtme{
+        background-color: rgb(237, 209, 164);
+    }
 
 }
 .MYProjects{
-    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
-    background-image: url('../images/bg/Grasst.jpg');
+   
+    /* background-image: url('../images/bg/Grasst.jpg'); */
     background-size: cover;
     /* background-color: cornsilk; */
     color:rgb(0, 0, 0);
@@ -125,27 +131,13 @@ p{
     /* background-image: url("../images/bg/colored.jpg");       
     background-attachment: fixed;
     background-size: cover; */
-    color:rgba(58, 13, 59, 0.979);
-    background-color: thistle;
+    color:black;
     
    
 }
 .hobbies{
-    list-style-type: upper-roman;
+    /* list-style-type: upper-roman; */
     list-style-position: inside;
-}
-.MYArticles{
-    background-image:radial-gradient(rgba(238, 150, 150, 0.315),rgb(248, 192, 192));   
-    color:black;
-    
-}
-.indexBlog{
-    font-family: Alegreya;
-    font-size: 1.8rem;
-    list-style: square;
-}
-.indexBlog a{
-    color:rgba(58, 13, 59, 0.87);
 }
 
 /* navbar*/
@@ -154,6 +146,7 @@ nav{
     width:100%;
     background-color: white;  
     z-index: 1;
+    box-shadow: 0 0 20px 1px rgb(230, 230, 230);
    
 }
 nav .logo{
