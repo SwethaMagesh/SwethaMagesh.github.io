@@ -106,16 +106,13 @@ p{
         min-height: 50vh;
         /* height: auto; */
         float: none;  
-        background-image: url("../typoImages/meTypo2.png");
+        background-image: url("../typoImages/wordcloud.png");
         background-size: contain;   
         background-repeat: no-repeat; 
         background-position:center;
     
     }
-    .abtme{
-        background-color: rgb(237, 209, 164);
-    }
-
+    
 }
 .MYProjects{
    
