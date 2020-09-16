@@ -8,7 +8,7 @@
 .projectCARD.toggle{
     
     display: block;
-    margin-left: 2.2rem;
+    margin-left: 1.2rem;
     padding:2rem;
     border: 0.2px solid black;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
@@ -19,7 +19,7 @@
 }
 h1.proHead{
     margin:1rem;
-    font-size: 3rem;
+    font-size: 2.35rem;
 }
 
 
@@ -29,8 +29,7 @@ h1.proHead{
         margin: none;   
         
     }
-    .pro{
-        
+    .pro{        
         margin:none;
         padding:1rem;
     }
