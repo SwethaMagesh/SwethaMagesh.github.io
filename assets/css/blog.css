@@ -13,9 +13,7 @@
     font-size: 1.8rem;
     list-style: square;
 }
-.indexBlog a{
-    color:rgba(58, 13, 59, 0.87);
-}
+
 
 .postCard{
     border-radius: 10px;
@@ -30,4 +28,8 @@
    .postCard{
     width: 50%;
    }
+   .indexBlog a:hover{
+       text-decoration: none;
+       text-transform: none;
+      }
 }
