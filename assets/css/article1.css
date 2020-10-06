@@ -12,7 +12,10 @@ q, blockquote {
 
     quotes: "“" "”" "‘" "’"; /* two pairs */
 }
-  
+p::selection{
+    color:rgba(255, 255, 255, 0.014);
+    background:rgb(235, 128, 172);;
+}  
 
 *::before, *::after
 {
