@@ -1,6 +1,14 @@
-**My Portfolio**
+# Portfolio Page
 
-- Also contains a Blog!
+This started as I started experimenting with HTML, CSS and Js. 
 
-***Hosted using Github pages***
+This has:
+  - *My interests*
+  - *My blog*
+  - *My projects*
+
+# Hosted using GitHub pages
+
+[Click to view deployment](http://swethamagesh.github.io)
+
 
