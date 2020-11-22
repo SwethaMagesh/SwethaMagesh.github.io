@@ -1,5 +1,6 @@
-# My portfolio 
-My portfolio site ! 
-Also contains a Blog!
-Hosted using Github pages
+**My Portfolio**
+
+- Also contains a Blog!
+
+***Hosted using Github pages***
 
