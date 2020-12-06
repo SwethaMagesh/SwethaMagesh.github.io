@@ -1,4 +1,17 @@
+@font-face {
+    font-family: Alegreya;
+    src: url("../fonts/Alegreya-Medium.ttf");
+  }
+  @font-face{
+      font-family: CardoQ;
+      src:url("../fonts/Cardo-Italic.ttf");
 
+  }
+  @font-face{
+      font-family: Baskerville;
+      src:url("../fonts/LibreBaskerville-Italic.ttf")
+
+  }
 html{
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -116,15 +129,6 @@ p{
     
     }
     
-}
-.MYProjects{
-   
-    /* background-image: url('../images/bg/Grasst.jpg'); */
-    background-size: cover;
-    /* background-color: cornsilk; */
-    color:rgb(0, 0, 0);
-   
-   
 }
 
 

@@ -21,20 +21,7 @@ p::selection{
 {
     box-sizing: border-box;
 }
-@font-face {
-    font-family: Alegreya;
-    src: url("../fonts/Alegreya-Medium.ttf");
-  }
-  @font-face{
-      font-family: CardoQ;
-      src:url("../fonts/Cardo-Italic.ttf");
 
-  }
-  @font-face{
-      font-family: Baskerville;
-      src:url("../fonts/LibreBaskerville-Italic.ttf")
-
-  }
 
 :root
 {

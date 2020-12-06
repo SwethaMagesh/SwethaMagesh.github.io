@@ -1,6 +1,7 @@
 :root{
-    --card-color:white;
-    --bg:rgb(238,246,247);
+    --card-color:rgba(222, 234, 246, 0.692);
+    --bg: white;
+    --titletheme:rgb(68,115,193);
 }
 .MYArticles{
     background: var(--bg);

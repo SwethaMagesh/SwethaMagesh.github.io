@@ -1,26 +1,49 @@
+:root{
+    --bg: rgba(222, 234, 246, 0.692);
+    --titletheme:rgb(68,115,193);
+    --profont:Alegreya,sans-serif;
+}
+.MYProjects{
+   
+    /* background-image: url('../images/bg/Grasst.jpg'); */
+    background-size: cover;
+    /* background-color: cornsilk; */
+    color:rgb(0, 0, 0);
+   
+   
+}
+
+
 .prohead{
-    margin: 2rem;
+        
+    /* color:var(--titletheme); */
+    margin:1rem;
+    margin-top: 3rem;
+    font-size: 2.75rem;
 }
-.projectCARD{
-   display: none;
-  
-}
-.projectCARD.toggle{
+.subpro{
+    font-size: 3.5rem;
     
+}
+/* .projectCARD{
+   display: none;  
+} */
+
+.projectCARD{
+    font-size: 2.3rem;
+    /* font-family: var(--profont); */
     display: block;
     margin-left: 1.2rem;
     padding:2rem;
     border: 0.2px solid black;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: var(--bg);
 }
-.projectCARD.toggle:hover{
+.projectCARD:hover{
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
 }
-h1.proHead{
-    margin:1rem;
-    font-size: 2.35rem;
-}
+
 
 
 @media screen and (max-width: 800px){
