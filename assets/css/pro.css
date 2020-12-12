@@ -1,8 +1,22 @@
 :root{
     --bg: rgba(222, 234, 246, 0.692);
     --titletheme:rgb(68,115,193);
-    --profont:Alegreya,sans-serif;
+    --profont:LibreBaskerville , Alegreya,sans-serif;
 }
+@font-face {
+    font-family: tr;
+    src: url("../fonts/TR-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: Alegreya;
+    src: url("../fonts/Alegreya-Medium.ttf");
+  }
+  @font-face {
+    font-family: LibreBaskerville;
+    src: url("../fonts/LibreBaskerville-Italic.tff");
+  }
+
 .MYProjects{
    
     /* background-image: url('../images/bg/Grasst.jpg'); */
@@ -19,7 +33,10 @@
     /* color:var(--titletheme); */
     margin:1rem;
     margin-top: 3rem;
-    font-size: 2.75rem;
+    font-size: 2.55rem;
+    font-family: var(--profont);
+    text-align: center;
+    /* font-style: italic; */
 }
 .subpro{
     font-size: 3.5rem;
