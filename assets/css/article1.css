@@ -92,16 +92,16 @@ nav{
     margin-bottom: 5rem;
 
 }
-.main-container div i{
+.main-container div i,.main-container div em{
    color:rgb(105, 3, 46);
 }
-.main-container div b{
+.main-container div b,.main-container div strong{
     color:rgb(105, 3, 46);
 }
 .main-container .picbox img{
     background-size: 100% 100%;
     width:100%;
-    height: 100%;
+    height:100%;
    
 }
 @media screen and (max-width:800px){
