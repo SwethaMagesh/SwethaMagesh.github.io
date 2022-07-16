@@ -1,6 +1,6 @@
 # Portfolio Page
 
-This started as I started experimenting with HTML, CSS and Js. 
+This web project started as I learnt experimenting with HTML, CSS and Js. 
 
 This has:
   - *My interests*
