@@ -1,11 +1,11 @@
 /* CSS */
 @font-face {
     font-family: "TR-Regular";
-    src: url(https://swethamagesh.github.io/assets/fonts/TR-Regular.ttf);
+    src: url(./fonts/TR-Regular.ttf);
 }
 @font-face {
     font-family: "Borel" ;
-    src: url(https://swethamagesh.github.io/assets/fonts/Borel-Regular.ttf);
+    src: url(./fonts/Borel-Regular.ttf);
 }
 html{
     scroll-behavior: smooth;
