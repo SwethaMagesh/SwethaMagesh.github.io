@@ -1,0 +1,138 @@
+/* CSS */
+@font-face {
+    font-family: "TR-Regular";
+    src: url(https://swethamagesh.github.io/assets/fonts/TR-Regular.ttf);
+}
+@font-face {
+    font-family: "Borel" ;
+    src: url(https://swethamagesh.github.io/assets/fonts/Borel-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    font-family:  "TR-Regular", sans-serif;
+    font-size: xx-large;
+    box-shadow: 0 0 20px 1px rgb(230, 230, 230);
+    background-color: white;
+}
+
+.nav-item{
+    padding-left: 2em;
+    color:black;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    text-shadow: grey;
+}
+h2.h2{
+    text-align: center;
+    margin-top: 2%;
+    font-family: "TR-Regular", sans-serif;
+}
+#project-container{
+    width: 70%;
+    font-family: "TR-Regular", sans-serif;
+    font-size: x-large;
+}
+
+#project-container li{
+    margin:4%;
+    padding-left: 1em;
+    list-style: none;
+}
+#project-container a{
+    color:black;
+    font-style: italic;
+}
+.pro-head{
+    font-size: larger ;
+}
+#project-container p{
+    padding-left: 5%;
+    padding-right: 5%
+}
+#project-container div{
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    padding:1em;
+    background-color: rgba(204, 221, 238, 0.692);
+}
+#project-container div:hover{
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+}
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>thead {
+   background-color: rgba(204, 221, 238, 0.692);
+ }
+/*social media*/
+/* hover */
+.social-media a:hover
+{
+    transform: scale(1.2);
+    z-index: 1;
+}
+.social-media
+{
+  
+    display: flex;
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: center;
+    z-index: 0;
+}
+
+.social-media a
+{
+    display: block;
+    position: relative;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+img#myimage{
+    border-radius: 30px;
+}
+.homepage div.row{
+    margin:3em;
+}
+video{
+    border: 1spx black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#desc{
+    font-size: x-large; text-align: justify; font-family: 'TR-Regular',sans-serif;
+}
+.homepage{
+    margin-top: 5%; width:80% ;
+}
+.footer{
+    text-align: center;
+    margin: 2px;
+    text-align: center;
+}
+.footer.small{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ /* The following lines will make the footer stick to the bottom */
+}
+@media screen and (max-width:600px){
+    #project-container{
+        width: 100%;
+        margin:0;
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: small;
+    }
+    #desc{
+        font-size: medium;
+        /* font-family: 'Times New Roman', Times, serif; */
+        margin:0%;
+    }
+    .homepage{
+        margin:0%;
+        width: 100%;
+    }
+
+}

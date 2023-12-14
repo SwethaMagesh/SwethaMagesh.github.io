@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+    <title>Swetha - Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="https://swethamagesh.github.io/assets/icons/logo.png" type="image/x-icon">
+        
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* change font style of class project  */
+        .project{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px; 
+        }
+    </style>
+https://moodle.iitb.ac.in/pluginfile.php/74617/mod_resource/content/1/CS_7
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom border-body">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://swethamagesh.github.io/assets/icons/sm.jpg" width="40pt" height="30pt">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </nav>
+    <h2 class="h2">Projects</h2>
+    <div class="container" id="project-container">
+        <ol id="projects" >
+            <li>
+                <div>
+                    <b class="pro-head">Exordium</b>
+                    <br>
+                    <p>
+                       This is an official <b>Mobile Application</b> for our college library <q>GRD Memorial Library</q>.
+                       It is designed for PSG techians and outsiders with an aim to describe the various resources and
+                       opportunities available at the library. This has the largest user base compared to other projects.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.exordium.library_demo" target="_blank"><b>View on PlayStore</b></a><br>
+                    <b>Platform:</b> Flutter SDK <br>
+                    <b>Programming Language: </b>Dart<br>
+                    <b>IDE:</b> Visual Studio Code, Android Studio
+                 </div>
+            </li>
+            <li>
+                <div>
+                    <b class="pro-head">Analyse IPL Auction Hashtags</b>
+                    <p>
+                       <br>
+                       This is a Social and Economic Network Analysis project. Tweets related to IPL Auction 2021 were scrapped from Twitter using TWINT tool. Hashtag counts and mention
+                       counts were analysed and visualised as Word cloud and barchart. Community detection algorithms like
+                       Louvain were applied to see the grouping of hashtags.
+                    </p>
+                    <a href="https://github.com/SwethaMagesh/Visualize-Twitter-Hashtags" target="_blank"><b>Source Code</b></a><br>
+  
+                    <b>Tools: </b>Networkx, Twint, Wordcloud<br>
+                    <b>Programming Language: </b>Python<br>
+                    <b>IDE:</b> Google Colaboratory, Gephi
+                 </div>
+            </li>   
+            <li>
+                <div>
+                    <b class="pro-head">Weed Detection in Sugarbeet Crops</b>
+                    <p>
+                       <br>
+                       This is a Machine Learning and Computer Vision Project for locating where exactly the weeds are
+                       present when given a picture of sugarbeet field. It has good applications in precision agriculture field.
+                    </p>
+                    <a href="https://github.com/SwethaMagesh/Weed_classification_ML" target="_blank"><b>Source Code</b></a><br>
+  
+                    <b>Platform:</b> Tensorflow using UNET Model (CNN) <br>
+                    <b>Programming Language: </b>Python<br>
+                    <b>IDE:</b> Google Colaboratory
+                 </div>
+            </li>
+            <li>
+                <div>
+                    <b class="pro-head">Illumine</b>
+                    <p>
+                       <br>
+                       Book reading list and review system. It is just the app for ardent book lovers. You can keep track of the current reads, wishlists and completed
+                       books. We can also view the books and tag the Quotes.
+                    </p>
+                    <a href="https://github.com/SwethaMagesh/illumine" target="_blank"><b>Source Code</b></a><br>
+     
+                    <b>Tools: </b>PHP, MySQL, Bootstrap<br>
+                    <b>Programming Language: </b>PHP, HTML, CSS, JS<br>
+                    <b>IDE:</b> VS Code (hosted through XAMPP)
+                 </div>
+            </li>
+            <li>
+                <div>
+                    <b class="pro-head">Grado</b>
+                    <p>
+                       <br> 
+                       This is a CGPA calculator app. It is useful for Choice based credit systems in colleges. 
+                       It helps find both SGPA per semester and cumulative CGPA. 
+                    </p>
+                    <a href="https://github.com/SwethaMagesh/Grado-CGPA-Calculator" target="_blank"><b>Source Code</b></a><br>
+                    <b>Platform:</b> Andoid Studio<br>
+                    <b>Programming Language: </b> Java<br>
+                 </div>
+            </li>
+        </ol>
+    </div>
+    <div class="footer" >
+        <small> <i>&copy; Copyright,
+                <script type="text/JavaScript">
+
+            document.write(new Date().getFullYear());
+            
+       </script>
+                Swetha Magesh.
+            </i> </small>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
